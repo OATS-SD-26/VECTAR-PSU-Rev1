@@ -794,6 +794,339 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -3244,131 +3577,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3886,6 +4094,12 @@
 		(uuid "0a4bcfbe-cdce-4fbe-a560-32c11a38cd18")
 	)
 	(junction
+		(at 532.13 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a87ac82-b837-4ecc-af86-86bfa61e4bad")
+	)
+	(junction
 		(at 468.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3976,7 +4190,13 @@
 		(uuid "52b0000c-d2e7-4d7c-b041-356a1e596c2c")
 	)
 	(junction
-		(at 256.54 86.36)
+		(at 532.13 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57939488-7d49-4007-9625-99d20e27bc95")
+	)
+	(junction
+		(at 360.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57ec203a-b444-456f-b2bc-dd7d97e68e2d")
@@ -4012,7 +4232,7 @@
 		(uuid "741dcc6f-1499-4f35-89b8-1ad9046a7a08")
 	)
 	(junction
-		(at 242.57 86.36)
+		(at 346.71 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7785421b-8d9f-4b03-8190-10e86caf98b7")
@@ -4046,6 +4266,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91ed1385-1f53-4aae-8c2b-30734f3307d7")
+	)
+	(junction
+		(at 532.13 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf40048-e1d7-4952-a11d-c52db2fa06b7")
 	)
 	(junction
 		(at 379.73 86.36)
@@ -4102,6 +4328,12 @@
 		(uuid "ce4c1475-a490-48ab-a5d5-24b3cb9dc94b")
 	)
 	(junction
+		(at 532.13 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5ac94fc-27f1-412e-936d-d32225f0d232")
+	)
+	(junction
 		(at 401.32 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4125,6 +4357,12 @@
 		(color 0 0 0 0)
 		(uuid "f8778304-f90b-4435-aed4-5e578ed15ed6")
 	)
+	(junction
+		(at 107.95 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd3393e8-b8cd-4143-8397-6a552e8f57c9")
+	)
 	(wire
 		(pts
 			(xy 241.3 170.18) (xy 241.3 172.72)
@@ -4137,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 83.82) (xy 233.68 86.36)
+			(xy 337.82 83.82) (xy 337.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4228,7 +4466,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 256.54 86.36)
+			(xy 346.71 86.36) (xy 360.68 86.36)
 		)
 		(stroke
 			(width 1)
@@ -4309,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 118.11 107.95)
+			(xy 99.06 107.95) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 1)
@@ -4485,6 +4723,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 59.69) (xy 532.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33485e9f-542d-4ac8-90ec-b7384aa1c5ca")
+	)
+	(wire
+		(pts
 			(xy 123.19 119.38) (xy 128.27 119.38)
 		)
 		(stroke
@@ -4492,6 +4740,26 @@
 			(type default)
 		)
 		(uuid "34c55c99-42ca-4276-bdf1-0c4f85c53251")
+	)
+	(wire
+		(pts
+			(xy 532.13 55.88) (xy 532.13 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3602a149-abbd-447e-a009-fda838593376")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.95) (xy 107.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37afab55-2f8c-4007-a639-6d38ec012baa")
 	)
 	(wire
 		(pts
@@ -4615,7 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 86.36) (xy 374.65 86.36)
+			(xy 360.68 86.36) (xy 374.65 86.36)
 		)
 		(stroke
 			(width 1)
@@ -4839,7 +5107,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 256.54 86.36)
+			(xy 346.71 86.36) (xy 360.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4856,6 +5124,16 @@
 			(type default)
 		)
 		(uuid "7286f8ed-1435-402d-867f-3d2010381d8a")
+	)
+	(wire
+		(pts
+			(xy 532.13 52.07) (xy 532.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733ca1ef-916e-4960-a417-9249491e6302")
 	)
 	(wire
 		(pts
@@ -4890,6 +5168,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 60.96) (xy 532.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc09183-865e-4265-8b0d-a9a11a5598a4")
+	)
+	(wire
+		(pts
 			(xy 264.16 119.38) (xy 274.32 119.38)
 		)
 		(stroke
@@ -4917,6 +5205,16 @@
 			(type default)
 		)
 		(uuid "80242cc1-fe11-4303-bd21-2bb485dafd9c")
+	)
+	(wire
+		(pts
+			(xy 532.13 58.42) (xy 532.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826cdd39-5157-461c-b0dc-481aa84f7054")
 	)
 	(wire
 		(pts
@@ -4991,6 +5289,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 52.07) (xy 532.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c79f23-c635-47a4-8bc2-fce7f5e42cc3")
+	)
+	(wire
+		(pts
 			(xy 463.55 86.36) (xy 455.93 86.36)
 		)
 		(stroke
@@ -5042,17 +5350,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 107.95 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 3 1)
-		)
-		(uuid "9b6c99d4-ac97-4ab4-99b0-6429d0dbd8af")
-	)
-	(wire
-		(pts
 			(xy 478.79 86.36) (xy 473.71 86.36)
 		)
 		(stroke
@@ -5060,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "9d3f84ec-e4b9-4f93-8890-6357aeeb3d19")
+	)
+	(wire
+		(pts
+			(xy 524.51 52.07) (xy 532.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e466457-1822-4f35-ab4e-e416265eb9cd")
 	)
 	(wire
 		(pts
@@ -5300,6 +5607,17 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 104.14) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 10 1)
+		)
+		(uuid "c5950d5a-7ca4-4a60-96c3-db18e19783f3")
+	)
+	(wire
+		(pts
 			(xy 57.15 110.49) (xy 53.34 110.49)
 		)
 		(stroke
@@ -5320,6 +5638,17 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 107.95) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 10 1)
+		)
+		(uuid "cb09a5c8-2ff4-4f8f-975f-5e98825b3ef2")
+	)
+	(wire
+		(pts
 			(xy 392.43 129.54) (xy 401.32 129.54)
 		)
 		(stroke
@@ -5330,7 +5659,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 83.82) (xy 242.57 86.36)
+			(xy 346.71 83.82) (xy 346.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5347,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "ce3a6e8c-c6d3-477d-a311-bb2725d3a578")
+	)
+	(wire
+		(pts
+			(xy 524.51 59.69) (xy 532.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6b9101-a820-4255-88d4-38d0edd49dfb")
 	)
 	(wire
 		(pts
@@ -5370,7 +5709,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 86.36) (xy 242.57 86.36)
+			(xy 337.82 86.36) (xy 346.71 86.36)
 		)
 		(stroke
 			(width 1)
@@ -6158,7 +6497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eb0f67f-d405-4fce-8278-d5ba6ab4c0a6")
-		(property "Reference" "R87"
+		(property "Reference" "R6"
 			(at 257.81 144.78 0)
 			(effects
 				(font
@@ -6248,7 +6587,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "R87")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6321,6 +6660,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 107.95 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f85d7f-0475-4349-979a-50814abe8366")
+		(property "Reference" "#PWR010"
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 107.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "422eedae-4e1b-40f4-86af-c2f85bdabe0a")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 274.32 115.57 0)
 		(unit 1)
@@ -6330,7 +6735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2219f11d-41c3-4f11-989b-813c00098242")
-		(property "Reference" "C93"
+		(property "Reference" "C6"
 			(at 278.13 114.2999 0)
 			(effects
 				(font
@@ -6384,7 +6789,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C93")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6416,7 +6821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 154.94 50.8 0)
 			(effects
 				(font
@@ -6459,72 +6864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 269.24 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aa4cbbe-5668-4a32-80fe-ea80dc6a0a78")
-		(property "Reference" "#PWR01"
-			(at 269.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 269.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "142df53d-6bb6-4e82-974a-6d135ae83e9a")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 292.1 115.57 0)
 		(unit 1)
@@ -6534,7 +6873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab5de39-d54b-4a7c-a1f0-0cd5f135d381")
-		(property "Reference" "C94"
+		(property "Reference" "C5"
 			(at 295.91 113.4109 0)
 			(effects
 				(font
@@ -6588,7 +6927,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C94")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6604,7 +6943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2acf0a02-8cf2-438c-84c4-a3a6a18b4170")
-		(property "Reference" "SW78"
+		(property "Reference" "SW1"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -6656,7 +6995,73 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "SW78")
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b770855-aaa8-449d-a15a-9e4a56df4f3a")
+		(property "Reference" "#PWR06"
+			(at 219.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3d85e9-1281-4fde-a70e-754b88b61690")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6861,139 +7266,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 252.73 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d87d61b-bbfa-4a60-8a48-7424e645401c")
-		(property "Reference" "#PWR0128"
-			(at 252.73 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "976aaf5b-f1ae-4e64-9c5d-dd2b40c3f255")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 219.71 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ffcdcc1-9fe4-4f10-bf82-3959eafc4d71")
-		(property "Reference" "#PWR0127"
-			(at 219.71 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 219.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7639680-a4bc-40d9-aece-d14018d6c88a")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 218.44 119.38 0)
 		(unit 1)
@@ -7003,7 +7275,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4392371f-cf80-40f1-a7ad-db759a7fa1f3")
-		(property "Reference" "R81"
+		(property "Reference" "R1"
 			(at 220.98 118.1099 0)
 			(effects
 				(font
@@ -7057,7 +7329,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "R81")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7197,72 +7469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 107.95 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "463cbb7b-66a1-40cd-a486-2a8fbcc94d52")
-		(property "Reference" "#PWR079"
-			(at 107.95 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 107.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c281b502-f42b-41da-8d22-cb493d3454f9")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 222.25 124.46 0)
 		(unit 1)
@@ -7338,7 +7544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49d64d02-43df-454e-a36d-8b6cec2765da")
-		(property "Reference" "R84"
+		(property "Reference" "R3"
 			(at 222.25 149.8599 0)
 			(effects
 				(font
@@ -7392,7 +7598,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "R84")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7605,140 +7811,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 142.24 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c28d536-41e8-406f-8697-874c9f7fa4db")
-		(property "Reference" "#PWR04"
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 142.24 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97f930d3-8fe4-4882-b991-e8fc0dc56f37")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 274.32 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f47e4c5-9fc5-4d50-80f2-a9e3ecbce09e")
-		(property "Reference" "#PWR081"
-			(at 274.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 274.32 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b5d3de7-94eb-4716-8c04-780b1bd0ea97")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 86.36 0)
+		(at 360.68 86.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7747,8 +7821,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "552b2ac3-fee8-42af-98f2-216f517d48a5")
-		(property "Reference" "TP4"
-			(at 254 88.3919 0)
+		(property "Reference" "TP1"
+			(at 358.14 88.3919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +7831,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 254 90.9319 0)
+			(at 358.14 90.9319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7840,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
-			(at 261.62 86.36 0)
+			(at 365.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 86.36 0)
+			(at 365.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7858,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 256.54 86.36 0)
+			(at 360.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +7867,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 256.54 86.36 0)
+			(at 360.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +7876,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 256.54 86.36 0)
+			(at 360.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +7885,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 256.54 86.36 0)
+			(at 360.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7899,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7841,8 +7915,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb5416c-827e-451b-8795-e6b45718fade")
-		(property "Reference" "D81"
-			(at 256.54 153.9875 90)
+		(property "Reference" "D2"
+			(at 256.54 153.9874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7851,7 +7925,7 @@
 			)
 		)
 		(property "Value" "LED_G"
-			(at 256.54 156.5275 90)
+			(at 256.54 156.5274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8005,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "D81")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7947,7 +8021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cd365c6-6a1a-40e4-937e-4484a0054ee5")
-		(property "Reference" "J78"
+		(property "Reference" "J1"
 			(at 48.895 102.87 0)
 			(effects
 				(font
@@ -7999,7 +8073,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "J78")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8097,7 +8171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -8141,7 +8215,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 233.68 83.82 0)
+		(at 337.82 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8150,7 +8224,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b8c77c-ce7b-40d2-9cc2-7dd3f64b0a09")
 		(property "Reference" "#FLG0907"
-			(at 233.68 81.915 0)
+			(at 337.82 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8233,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 233.68 78.74 0)
+			(at 337.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 83.82 0)
+			(at 337.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 83.82 0)
+			(at 337.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8259,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 233.68 83.82 0)
+			(at 337.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6803d981-a78e-493a-aee4-e13faa8659b0")
-		(property "Reference" "R80"
+		(property "Reference" "R2"
 			(at 232.41 115.5699 0)
 			(effects
 				(font
@@ -8269,7 +8343,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "R80")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8445,6 +8519,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 167.64 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3ebf69-2023-485c-a786-61901cff0197")
+		(property "Reference" "#PWR011"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af41214b-c69c-4ffb-99c5-5b2fc9fea11c")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 115.57 0)
 		(unit 1)
@@ -8454,7 +8594,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71083dfe-6b6b-47e6-92e7-331b9e8eeeeb")
-		(property "Reference" "C91"
+		(property "Reference" "C8"
 			(at 257.81 114.2999 0)
 			(effects
 				(font
@@ -8508,7 +8648,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C91")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8524,7 +8664,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7282aa91-4fb8-404b-82be-8c75f3b8b6ee")
-		(property "Reference" "C88"
+		(property "Reference" "C3"
 			(at 121.92 114.2999 0)
 			(effects
 				(font
@@ -8578,7 +8718,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C88")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8651,17 +8791,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 167.64 45.72 0)
+		(lib_id "power:+5V")
+		(at 406.4 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76cea96d-1149-4ba8-ab32-0ed01822cfd0")
-		(property "Reference" "#PWR06"
-			(at 167.64 49.53 0)
+		(uuid "7f2ad5e5-5e71-4749-93da-f3cd0a7b0c14")
+		(property "Reference" "#PWR01"
+			(at 406.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,8 +8809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 167.64 40.64 0)
+		(property "Value" "+5V"
+			(at 406.4 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +8818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 45.72 0)
+			(at 406.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 45.72 0)
+			(at 406.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 45.72 0)
+			(at 406.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,12 +8845,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6846c53a-feea-4668-bf5c-8a072894507e")
+			(uuid "3ff31c42-712b-4e52-b96d-35896ebf3c6b")
 		)
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8822,6 +8962,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 346.71 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80590cef-54ab-49ab-9ebc-ebbec4bb461f")
+		(property "Reference" "#PWR08"
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 346.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 346.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa8d49c7-7975-4b8f-aa5f-b62d3b8f5050")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 138.43 115.57 0)
 		(unit 1)
@@ -8831,7 +9037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84df134c-dff7-4fab-9239-49d039e81a87")
-		(property "Reference" "C90"
+		(property "Reference" "C1"
 			(at 142.24 113.4109 0)
 			(effects
 				(font
@@ -8885,7 +9091,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C90")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9209,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "88a78a5c-3dc8-41a1-8404-e8a93e7a12e4")
-		(property "Reference" "C86"
+		(property "Reference" "C9"
 			(at 247.65 114.2999 0)
 			(effects
 				(font
@@ -9057,7 +9263,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C86")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9072,7 +9278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c19e771-dc7b-4d47-b55b-97b232cf0e6d")
-		(property "Reference" "R86"
+		(property "Reference" "R5"
 			(at 234.95 167.64 0)
 			(effects
 				(font
@@ -9160,7 +9366,89 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "R86")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 537.21 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b04837-bdbd-49db-ad46-cfbb1c9cf707")
+		(property "Reference" "J5"
+			(at 538.48 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 538.48 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7df1f2f1-1c14-4c34-a4fb-03d76e72895e")
+		)
+		(pin "2"
+			(uuid "a0fffa72-1157-4836-8f59-dd6dae730a1c")
+		)
+		(pin "4"
+			(uuid "9fa32ec2-7018-46dc-9b01-9f272ca89091")
+		)
+		(pin "6"
+			(uuid "d66777cd-fd83-4606-9f02-e9e5a9703572")
+		)
+		(pin "1"
+			(uuid "9acddb3b-41ca-45a5-b692-5c99bb6b61e7")
+		)
+		(pin "5"
+			(uuid "9a4cc520-06ea-40e5-8f47-033afb90cc10")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9177,7 +9465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95a632db-1231-47bb-ae42-d9f55a7b9b73")
-		(property "Reference" "D79"
+		(property "Reference" "D1"
 			(at 233.68 126.0474 90)
 			(effects
 				(font
@@ -9240,7 +9528,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "D79")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9350,6 +9638,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 274.32 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "985caacf-f595-43ea-9588-4e933a20ad42")
+		(property "Reference" "#PWR07"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088baa9f-c38e-40d5-a373-d059b4ea3d69")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-03-01_22-23-27:APT100S20BG")
 		(at 73.66 107.95 0)
 		(unit 1)
@@ -9359,7 +9713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb9e83c-92b7-453f-a9bb-1bfc9a09a3ad")
-		(property "Reference" "CR78"
+		(property "Reference" "CR1"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -9413,7 +9767,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "CR78")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -9638,7 +9992,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af58782b-515d-4e89-ab8a-cd5b4e901bd9")
-		(property "Reference" "C89"
+		(property "Reference" "C2"
 			(at 132.08 114.2999 0)
 			(effects
 				(font
@@ -9692,7 +10046,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C89")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9913,6 +10267,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 524.51 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc740d6a-9f48-4628-87fc-626d11b86a0c")
+		(property "Reference" "#PWR014"
+			(at 518.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 520.7 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15228cc3-f515-4209-91d2-d1d12ca2df6e")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 107.95 115.57 0)
 		(unit 1)
@@ -9922,7 +10343,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bc9dd0c4-52bf-4c43-9a21-317c475e673f")
-		(property "Reference" "C87"
+		(property "Reference" "C4"
 			(at 111.76 114.2999 0)
 			(effects
 				(font
@@ -9976,7 +10397,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C87")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10322,7 +10743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc633342-4d62-457e-81ce-a273e3dc7811")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 257.175 54.61 0)
 			(effects
 				(font
@@ -10374,73 +10795,7 @@
 		(instances
 			(project ""
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 406.4 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd306824-8ce8-4854-bb8f-229f84462465")
-		(property "Reference" "#PWR091"
-			(at 406.4 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 406.4 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 406.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 406.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 406.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ff33735-106d-458d-af6f-72a3131ea19f")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR091")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10545,74 +10900,6 @@
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 76.2 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3d64725-3cb5-4aca-a9f1-f43f38fdc48d")
-		(property "Reference" "J4"
-			(at 76.835 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 76.835 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "faef2c10-de15-4f40-95f8-c584a6a73d79")
-		)
-		(pin "1"
-			(uuid "6c142c00-a558-4c05-979d-f06ab93704ab")
-		)
-		(instances
-			(project ""
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10788,6 +11075,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 252.73 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d690d2df-b5fa-434a-a3e4-4893a68e834b")
+		(property "Reference" "#PWR04"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b37af71-a550-4d1e-a940-4d25f31aff77")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 264.16 115.57 0)
 		(unit 1)
@@ -10797,7 +11150,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "daf28845-9de3-4cbe-aedc-6c13037ee012")
-		(property "Reference" "C92"
+		(property "Reference" "C7"
 			(at 267.97 114.2999 0)
 			(effects
 				(font
@@ -10851,7 +11204,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "C92")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10866,7 +11219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfd9ffa2-ab22-4c0f-a2fe-07af823df0a7")
-		(property "Reference" "Q78"
+		(property "Reference" "Q1"
 			(at 245.11 163.83 0)
 			(effects
 				(font
@@ -10962,7 +11315,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "Q78")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11198,7 +11551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8967631-aeba-48bc-888a-a80da5764331")
-		(property "Reference" "R85"
+		(property "Reference" "R4"
 			(at 232.41 157.48 90)
 			(effects
 				(font
@@ -11286,7 +11639,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "R85")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11393,6 +11746,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 524.51 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede0823f-f6ae-4597-8b0d-fedd3d05ae4b")
+		(property "Reference" "#PWR013"
+			(at 528.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 520.7 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d1ce47e-59bd-47e7-ba47-3b8885de52b4")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 63.5 107.95 90)
 		(unit 1)
@@ -11402,7 +11822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef865b39-9067-481c-a51d-967d9df5d9a8")
-		(property "Reference" "F78"
+		(property "Reference" "F1"
 			(at 63.5 101.6 90)
 			(effects
 				(font
@@ -11418,7 +11838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_3-140-172:FUSE_3-140-172_SCH"
 			(at 63.5 109.728 90)
 			(effects
 				(font
@@ -11454,7 +11874,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "F78")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11779,7 +12199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f62fb3e6-a0ef-4057-bff6-19561a663dc7")
-		(property "Reference" "D80"
+		(property "Reference" "CR2"
 			(at 222.25 142.5574 90)
 			(effects
 				(font
@@ -11833,7 +12253,73 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "D80")
+					(reference "CR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 142.24 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a4fca8-f192-468e-ba3e-262ad6234c0b")
+		(property "Reference" "#PWR012"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03868a2-4647-4372-a42c-fbb2360cc799")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11945,6 +12431,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 269.24 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f88f088d-1a23-4fc9-9a23-af28ee6d3b49")
+		(property "Reference" "#PWR09"
+			(at 269.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 269.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406c884c-1de6-443c-a187-e9b66da7a0dc")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 157.48 115.57 180)
 		(unit 1)
@@ -11954,7 +12506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa56d2a5-fdce-4478-866c-0d2da60e102c")
-		(property "Reference" "SW79"
+		(property "Reference" "SW2"
 			(at 157.48 110.49 0)
 			(effects
 				(font
@@ -12006,73 +12558,7 @@
 		(instances
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "SW79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 242.57 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbff0ebc-60ad-4844-a8df-6d6181e89fb7")
-		(property "Reference" "#PWR080"
-			(at 242.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 242.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "785564bb-5b31-407a-9b9d-c626dda47b51")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR080")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
