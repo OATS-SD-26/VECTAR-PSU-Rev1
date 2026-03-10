@@ -1,4 +1,4 @@
-26569698438551258
+26575018196872402
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73780,6 +73780,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PSU-Rev1
+AMASS_XT60PW-M
+
+
+0
+4
+4
+PSU-Rev1
 AMASS_XT90PW-M
 
 
@@ -73794,19 +73801,33 @@ CONV_I6A4W020A033V-003-R
 11
 11
 PSU-Rev1
-FUSE_3-140-172_SCH
+DDF0008A-MFG
 
-3-140-172 
+LM74502DDFR 
+0
+8
+8
+PSU-Rev1
+LED_B1911PG--20D000514U1930_HVK
+
+B1911PG--20D000514U1930 
 0
 2
 2
 PSU-Rev1
-TO-247B_2LD_MCH
+SW_DS04-254-2-02BK-SMT
 
-APT100S20BG 
+
 0
-2
-2
+4
+4
+PSU-Rev1
+TO254P483X1016X1944-3B
+TO,flange mount,2.54mm pitch;3 pin,4.83mm L X 10.16mm W X 19.44mm H body
+
+0
+3
+3
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13

@@ -11639,7 +11639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF/22V"
+		(property "Value" "100uF/35V"
 			(at 243.84 101.346 0)
 			(effects
 				(font
@@ -11657,7 +11657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ehbsa-hybrid-aluminum-electrolytic-capacitor-data-sheet-elx1481-en.pdf"
 			(at 243.84 92.71 0)
 			(effects
 				(font
