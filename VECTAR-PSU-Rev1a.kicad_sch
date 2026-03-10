@@ -2830,6 +2830,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -3918,6 +4094,12 @@
 		(uuid "0a87ac82-b837-4ecc-af86-86bfa61e4bad")
 	)
 	(junction
+		(at 292.1 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bc27c43-645b-4be2-bebc-6075a9c462ed")
+	)
+	(junction
 		(at 468.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3994,6 +4176,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "422b315e-2d3a-45da-a0f5-3439093f6ce0")
+	)
+	(junction
+		(at 149.86 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4332c075-9b6b-4119-b0e8-fcaf0523f222")
 	)
 	(junction
 		(at 463.55 109.22)
@@ -4355,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 107.95) (xy 274.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cebed55-0ba4-449c-b0aa-ef4274e7eb9b")
+	)
+	(wire
+		(pts
 			(xy 241.3 162.56) (xy 245.11 162.56)
 		)
 		(stroke
@@ -4365,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 113.03) (xy 229.87 107.95)
+			(xy 309.88 110.49) (xy 309.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4458,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 129.54) (xy 229.87 132.08)
+			(xy 309.88 127) (xy 309.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4588,6 +4786,16 @@
 			(type default)
 		)
 		(uuid "37afab55-2f8c-4007-a639-6d38ec012baa")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384d2eae-6fe4-4da2-928d-739d2a594276")
 	)
 	(wire
 		(pts
@@ -4782,6 +4990,27 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 107.95) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 10 1)
+		)
+		(uuid "506e4a55-fe9b-4feb-b830-af130e092208")
+	)
+	(wire
+		(pts
+			(xy 274.32 107.95) (xy 264.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b0332d-b791-402d-95a0-ab1d2366f21d")
+	)
+	(wire
+		(pts
 			(xy 128.27 111.76) (xy 128.27 107.95)
 		)
 		(stroke
@@ -4803,6 +5032,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 113.03) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afee390-40f9-41e8-8d18-c6b8b02fd114")
+	)
+	(wire
+		(pts
 			(xy 160.02 50.8) (xy 167.64 50.8)
 		)
 		(stroke
@@ -4813,7 +5052,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 107.95) (xy 165.1 107.95)
+			(xy 140.97 107.95) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 1)
@@ -4824,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 120.65) (xy 229.87 121.92)
+			(xy 309.88 118.11) (xy 309.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4916,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 107.95) (xy 243.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af7f333-254a-4af1-8e5f-6ad27fe8b89e")
+	)
+	(wire
+		(pts
 			(xy 254 111.76) (xy 254 107.95)
 		)
 		(stroke
@@ -4976,7 +5225,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 115.57) (xy 151.13 115.57)
+			(xy 152.4 118.11) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5094,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "8c7f3e9b-9d9c-414d-b2a9-94d28594c30e")
+	)
+	(wire
+		(pts
+			(xy 264.16 107.95) (xy 254 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e45e549-72b2-4d23-acf1-12d61629e191")
 	)
 	(wire
 		(pts
@@ -5600,7 +5859,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 151.13 123.19)
+			(xy 219.71 154.94) (xy 219.71 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd524615-8315-4025-a75e-2baf1c622afd")
+	)
+	(wire
+		(pts
+			(xy 151.13 118.11) (xy 151.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5692,6 +5961,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 107.95) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28f32f8-27b1-4bf0-9e9f-f73eb2e6f4e9")
+	)
+	(wire
+		(pts
 			(xy 397.51 102.87) (xy 397.51 146.05)
 		)
 		(stroke
@@ -5699,6 +5978,16 @@
 			(type default)
 		)
 		(uuid "f2f19a8b-41cc-4535-acfa-d6d48b25d77c")
+	)
+	(wire
+		(pts
+			(xy 309.88 107.95) (xy 292.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4edfa25-0697-41e4-a8d6-fb54c03d2473")
 	)
 	(wire
 		(pts
@@ -6455,7 +6744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3K/1%"
+		(property "Value" "100/1%"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -7939,7 +8228,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_G"
+		(property "Value" "B1911PG"
 			(at 256.54 156.5274 90)
 			(effects
 				(font
@@ -8296,7 +8585,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 229.87 116.84 0)
+		(at 309.88 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8305,7 +8594,7 @@
 		(fields_autoplaced yes)
 		(uuid "6803d981-a78e-493a-aee4-e13faa8659b0")
 		(property "Reference" "R2"
-			(at 232.41 115.5699 0)
+			(at 312.42 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8603,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 232.41 118.1099 0)
+			(at 312.42 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8612,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
-			(at 230.886 117.094 90)
+			(at 310.896 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 116.84 0)
+			(at 309.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8630,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 229.87 116.84 0)
+			(at 309.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,8 +9589,8 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
-			(at 236.22 165.1 0)
+		(property "Value" "7k/1%"
+			(at 236.22 165.354 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9471,7 +9760,7 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 229.87 125.73 90)
+		(at 309.88 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9480,7 +9769,7 @@
 		(fields_autoplaced yes)
 		(uuid "95a632db-1231-47bb-ae42-d9f55a7b9b73")
 		(property "Reference" "D1"
-			(at 233.68 126.0474 90)
+			(at 313.69 123.5074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9778,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 233.68 128.5874 90)
+			(at 313.69 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9787,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
-			(at 229.87 125.73 0)
+			(at 309.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 125.73 0)
+			(at 309.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9805,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 229.87 125.73 0)
+			(at 309.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +9814,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 125.73 0)
+			(at 309.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,6 +10071,76 @@
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
 					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 157.48 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a292a0bb-e479-4604-bf57-11a2b2232f41")
+		(property "Reference" "SW3"
+			(at 157.48 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 157.988 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 157.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6599d957-9515-4322-8fe8-3404b288bf68")
+		)
+		(pin "1"
+			(uuid "ae8fee5a-4f34-4a2b-bdad-a5b29127b959")
+		)
+		(pin "2"
+			(uuid "78d1cd58-4ddd-4103-a0fd-cf05545801ff")
+		)
+		(instances
+			(project ""
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -10751,7 +11110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 132.08 0)
+		(at 309.88 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10760,7 +11119,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8f704b9-5877-4acd-ba0c-cecca2d9dd83")
 		(property "Reference" "#PWR085"
-			(at 229.87 138.43 0)
+			(at 309.88 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +11128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 137.16 0)
+			(at 309.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +11136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 132.08 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +11145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 132.08 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +11154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 132.08 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,7 +12066,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "3k/1%"
 			(at 233.68 160.02 90)
 			(effects
 				(font
@@ -12545,74 +12904,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 157.48 115.57 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa56d2a5-fdce-4478-866c-0d2da60e102c")
-		(property "Reference" "SW2"
-			(at 157.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 157.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 157.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 157.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ced4892-2640-4635-82ec-e98657ef860f")
-		)
-		(pin "1"
-			(uuid "ab827351-a89a-4e51-a2d5-2bd39fc27857")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 267.97 66.04 0)
 		(unit 1)
@@ -12673,6 +12964,72 @@
 			(project ""
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 219.71 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdfbbb34-36b9-4070-a4a2-c2d7fdf7a59e")
+		(property "Reference" "TP8"
+			(at 212.09 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.296 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "717f4615-de80-46db-a973-642bc52e2815")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
