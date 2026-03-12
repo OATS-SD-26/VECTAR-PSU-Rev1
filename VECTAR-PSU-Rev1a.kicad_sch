@@ -3772,25 +3772,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 3.81 0)
+			(property "Reference" "J6"
+				(at 3.81 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "XT90PW-M"
-				(at 0 -7.62 0)
+				(at 3.81 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "XT90PW-M:AMASS_XT90PW-M"
+			(property "Footprint" "PSU-Rev1:AMASS_XT90PW-M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4069,6 +4067,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "XT90PW-M_1_0"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 5.08)
@@ -4079,7 +4079,7 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4097,7 +4097,43 @@
 							)
 						)
 					)
-					(number "N"
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 270)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5279,6 +5315,12 @@
 		(uuid "52b0000c-d2e7-4d7c-b041-356a1e596c2c")
 	)
 	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e3c6f4-f163-483e-9b86-5a05b1fd04f1")
+	)
+	(junction
 		(at 353.06 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5301,6 +5343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6650a830-7d17-44ae-aae3-ff3756ada0cb")
+	)
+	(junction
+		(at 93.98 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d9d58f-5786-4411-b99b-fc312c966aac")
 	)
 	(junction
 		(at 102.87 118.11)
@@ -6056,6 +6104,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5026c618-4990-411f-aa59-3d50c1769def")
+	)
+	(wire
+		(pts
 			(xy 144.78 92.71) (xy 144.78 96.52)
 		)
 		(stroke
@@ -6666,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 73.66) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af29717c-7968-42ec-9a9e-0f8a6595b628")
+	)
+	(wire
+		(pts
 			(xy 152.4 251.46) (xy 152.4 254)
 		)
 		(stroke
@@ -6726,6 +6794,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77bac28-69b8-4af6-9a21-0953d9f91085")
+	)
+	(wire
+		(pts
 			(xy 243.84 85.09) (xy 270.51 85.09)
 		)
 		(stroke
@@ -6783,6 +6861,16 @@
 			(type default)
 		)
 		(uuid "bd32b599-5fe1-47e0-8475-7a6d7da4e467")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 105.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd45e3df-a66e-4199-a8ae-a6342a6a732a")
 	)
 	(wire
 		(pts
@@ -6873,6 +6961,16 @@
 			(type default)
 		)
 		(uuid "c895e5ca-24fa-4813-8588-78ab6d77d679")
+	)
+	(wire
+		(pts
+			(xy 93.98 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93741d6-712f-485f-b61e-ef2f75c502a0")
 	)
 	(wire
 		(pts
@@ -6993,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "dff9cdfd-0a78-438c-b4ad-fc393fca6c4b")
+	)
+	(wire
+		(pts
+			(xy 105.41 91.44) (xy 105.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e09f23-248f-4700-8b67-334ac818978c")
 	)
 	(wire
 		(pts
@@ -7558,7 +7666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 373.38 255.27 0)
 			(effects
 				(font
@@ -7896,7 +8004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.44 245.11 0)
 			(effects
 				(font
@@ -8269,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PSU-Rev1:TO254P483X1016X1944-3B"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -8647,7 +8755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PSU-Rev1:AMASS_XT60PW-M"
+		(property "Footprint" "PSU-Rev1:Rocker-Switch"
 			(at 457.2 139.7 0)
 			(effects
 				(font
@@ -8774,7 +8882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "500"
 			(at 241.3 255.2699 0)
 			(effects
 				(font
@@ -9331,7 +9439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.85 245.11 0)
 			(effects
 				(font
@@ -9591,7 +9699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "150"
 			(at 261.62 255.2699 0)
 			(effects
 				(font
@@ -9882,11 +9990,17 @@
 				(hide yes)
 			)
 		)
-		(pin "P"
+		(pin "S1"
 			(uuid "0caac331-ab6c-431b-91ea-7b32bc6c8f16")
 		)
-		(pin "N"
+		(pin "S2"
 			(uuid "9a52fc4a-8889-4d66-8eff-239304bf3ac6")
+		)
+		(pin "1"
+			(uuid "ecc06c4f-205d-4fbe-8572-e1bfad1f63d3")
+		)
+		(pin "2"
+			(uuid "7e239c64-c0c9-4ca3-aa71-434045d508c6")
 		)
 		(instances
 			(project ""
@@ -10061,7 +10175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 324.866 96.774 90)
 			(effects
 				(font
@@ -10481,7 +10595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 402.59 255.27 0)
 			(effects
 				(font
@@ -10716,7 +10830,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Yellow"
 			(at 242.57 265.7474 90)
 			(effects
 				(font
@@ -10725,7 +10839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:LTST_C190KSKT"
 			(at 238.76 262.89 0)
 			(effects
 				(font
@@ -10734,7 +10848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0189/LTST-C190KSKT.pdf"
 			(at 238.76 262.89 0)
 			(effects
 				(font
@@ -10743,7 +10857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Yellow light emitting diode"
 			(at 238.76 262.89 0)
 			(effects
 				(font
@@ -10754,6 +10868,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 238.76 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 238.76 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 238.76 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 238.76 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,7 +11015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 345.44 255.27 0)
 			(effects
 				(font
@@ -11074,7 +11215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 331.47 255.27 0)
 			(effects
 				(font
@@ -11344,7 +11485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.08 245.11 0)
 			(effects
 				(font
@@ -11484,7 +11625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 433.07 255.27 0)
 			(effects
 				(font
@@ -12134,7 +12275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PSU-Rev1:TO254P483X1016X1944-3B"
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -12307,7 +12448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:6-pin-connector"
 			(at 463.55 191.77 0)
 			(effects
 				(font
@@ -12389,7 +12530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 303.53 255.27 0)
 			(effects
 				(font
@@ -12724,7 +12865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 387.35 255.27 0)
 			(effects
 				(font
@@ -12923,7 +13064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 359.41 255.27 0)
 			(effects
 				(font
@@ -13126,7 +13267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 289.56 255.27 0)
 			(effects
 				(font
@@ -13753,7 +13894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 417.83 255.27 0)
 			(effects
 				(font
@@ -14343,7 +14484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 238.76 245.11 0)
 			(effects
 				(font
@@ -14648,7 +14789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
 			(at 317.5 255.27 0)
 			(effects
 				(font
@@ -14707,7 +14848,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 262.89 265.7474 90)
 			(effects
 				(font
@@ -14716,7 +14857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:LTST_S270KRKT"
 			(at 259.08 262.89 0)
 			(effects
 				(font
@@ -14725,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf"
 			(at 259.08 262.89 0)
 			(effects
 				(font
@@ -15202,7 +15343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PSU-Rev1:Rocker-Switch"
 			(at 121.92 124.46 0)
 			(effects
 				(font
