@@ -1,4 +1,4 @@
-26594523941755587
+26596298561436170
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73779,6 +73779,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PSU-Rev1
+3-140-178
+
+
+0
+2
+2
 PSU-Rev1
 6-pin-connector
 

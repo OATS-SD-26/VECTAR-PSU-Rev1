@@ -3263,8 +3263,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U2"
+				(at 17.78 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3272,14 +3272,14 @@
 				)
 			)
 			(property "Value" "PTPS543021DRLR"
-				(at 0 0 0)
+				(at 17.78 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "DRL0006A-MFG"
+			(property "Footprint" "PSU-Rev1:DRL0006A-MFG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3383,24 +3383,6 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -7.62 0)
 					(length 5.08)
@@ -3412,24 +3394,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3455,6 +3419,44 @@
 						)
 					)
 				)
+			)
+			(symbol "PTPS543021DRLR_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin unspecified line
 					(at 35.56 -17.78 180)
 					(length 5.08)
@@ -3465,7 +3467,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3483,7 +3485,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5105,7 +5107,7 @@
 	)
 	(rectangle
 		(start 281.94 228.6)
-		(end 451.358 279.4)
+		(end 465.328 279.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -6254,6 +6256,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 245.11) (xy 459.74 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f9b6ce-dfe4-4804-a98a-28891f3a09e1")
+	)
+	(wire
+		(pts
 			(xy 359.41 85.09) (xy 349.25 85.09)
 		)
 		(stroke
@@ -6321,6 +6333,16 @@
 			(type default)
 		)
 		(uuid "6eda8254-a272-481f-af7b-45348d6c73c8")
+	)
+	(wire
+		(pts
+			(xy 453.39 245.11) (xy 453.39 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eddb448-6fb4-4398-95b4-583c35842a48")
 	)
 	(wire
 		(pts
@@ -6441,6 +6463,16 @@
 			(type default)
 		)
 		(uuid "826cdd39-5157-461c-b0dc-481aa84f7054")
+	)
+	(wire
+		(pts
+			(xy 453.39 245.11) (xy 459.74 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b587ad-3e22-43e2-9a96-de4f30d8ef1d")
 	)
 	(wire
 		(pts
@@ -7700,72 +7732,6 @@
 			(project "VECTAR-PSU-Rev1a"
 				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 209.55 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b9eb31d-93ce-428f-a348-860c07b53aa4")
-		(property "Reference" "#PWR08"
-			(at 209.55 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 209.55 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 209.55 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9055011-8bfb-458b-bdc7-becba6df8e6a")
-		)
-		(instances
-			(project "VECTAR-PSU-Rev1a"
-				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9751,6 +9717,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 209.55 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6cddc5-52f1-4e3e-81e1-ed9914d67cf8")
+		(property "Reference" "#PWR08"
+			(at 209.55 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 209.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 209.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "814caee5-e1cc-4bd1-beab-38c7031ba0fe")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 250.19 0)
 		(unit 1)
@@ -10166,7 +10198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.27k"
+		(property "Value" "1.9k"
 			(at 326.39 97.7899 0)
 			(effects
 				(font
@@ -11665,6 +11697,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 459.74 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764b774f-522a-4913-b386-fe75dff067a4")
+		(property "Reference" "#PWR034"
+			(at 459.74 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 459.74 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 459.74 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 459.74 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 459.74 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "576626e1-082e-4bb0-b6a8-c29396dbfee7")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 259.08 240.03 0)
 		(unit 1)
@@ -13038,6 +13136,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 453.39 255.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abce47ce-694b-44c8-99a0-3e85cc73248f")
+		(property "Reference" "TP12"
+			(at 455.93 257.3019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 455.93 259.8419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PSU-Rev1:KEYSTONE_5002"
+			(at 448.31 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 448.31 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 453.39 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce538242-9c11-4f63-a48e-d18cd2e37262")
+		)
+		(instances
+			(project "VECTAR-PSU-Rev1a"
+				(path "/4bea2110-1f4a-4734-955b-ccea5d17fc20"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 364.49 255.27 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14165,7 +14330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSU-Rev1:0498150.M"
+		(property "Footprint" "PSU-Rev1:3-140-178"
 			(at 120.65 83.058 90)
 			(effects
 				(font
@@ -14174,7 +14339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_UHS.pdf"
 			(at 120.65 81.28 0)
 			(effects
 				(font
