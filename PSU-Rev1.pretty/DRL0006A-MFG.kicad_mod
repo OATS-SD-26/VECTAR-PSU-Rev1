@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "PTPS543021DRLR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "98396f73-2470-4ca5-9516-bcc9c5a7c2c8")

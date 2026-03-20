@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacture/Rev2/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "VECTAR-PSU-Rev1a.step",
       "svg": "",
       "vrml": ""
     },
